@@ -1,0 +1,26 @@
+a = input("enter A")
+
+a = float(a)
+
+b = input("enter B")
+
+b = float(b)
+
+c = input("enter c")
+
+c = float(c)
+
+t = float((b*b)-(4*a*c))
+
+if t > 0 :
+
+    print(float(((-1*b)+((t)**0.5))/(2*a)))
+
+    print(float(((-1*b)-((t)**0.5))/(2*a)))
+
+if t == 0 :
+
+    print((-1*b)/(2*a))
+
+if t < 0 :
+    print("there is no nature answer for x")

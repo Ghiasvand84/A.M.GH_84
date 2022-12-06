@@ -1,0 +1,30 @@
+a = input("enter A")
+
+a = float(a)
+
+b = input("enter B")
+
+b = float(b)
+
+c = input("enter C")
+
+c = float(c)
+
+d = input("enter D")
+
+d = float(d)
+
+p = float(b-((a*a)/3))
+
+q = float(((2*a*a*a)/27)-((a*b)/3)+c)
+
+t = float(((q*q)/4)+((p*p*p)/27))
+if t>0 :
+    x1 = float(((((-1*q)/2)+(t**0.5))**(1/3))+((((-q)/2)-(t**0.5))**(1/3))-((a)/3))
+    print(float(x1))
+if t==0 :
+    x1 = float((-2*((q/2)**(1/3)))-(a/3))
+    print(float(x1))
+    x2 = float(((q/2)**(1/3))-(a/3))
+    print(float(x2))
+    

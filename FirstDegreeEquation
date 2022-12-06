@@ -1,0 +1,15 @@
+a = input("enter A")
+
+a = float(a)
+
+b = input("enter B")
+
+b = float(b)
+
+y = input("enter Y")
+
+y = float(y)
+
+x = float((y-b)/a)
+
+print(float(x))
