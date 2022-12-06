@@ -1,0 +1,12 @@
+x = input("enter the first number")
+
+x = (float(x))
+
+y = input("enter the seccond number")
+
+y = (float(y))
+
+if x > y :
+    print(x-y)
+if x <= y :
+    print(y-x)
